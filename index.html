@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rahul Kumar Gupta — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="scroll-indicator" id="scrollIndicator"></div>
+<canvas id="stars-canvas"></canvas>
+<div class="particles-wrap" id="particles"></div>
+
+<nav>
+  <div class="nav-logo">RKG</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-tag">Available for Internships</div>
+      <h1 class="hero-name">Rahul<br><span>Kumar</span> Gupta</h1>
+      <p class="hero-role">
+        <strong>B.Tech Computer Science Engineering</strong> student at Galgotias University.<br>
+        Building scalable full-stack applications with <strong>Python, Java &amp; Cloud.</strong>
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-outline">Get in Touch</a>
+      </div>
+      <div class="stats-strip">
+        <div class="stat"><span class="stat-num" data-target="3">0</span><span class="stat-label">Projects</span></div>
+        <div class="stat"><span class="stat-num" data-target="4">0</span><span class="stat-label">Certifications</span></div>
+        <div class="stat"><span class="stat-num" data-target="5">0</span><span class="stat-label">Tech Stack</span></div>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <div class="photo-ring">
+        <div class="photo-frame">
+          <div class="photo-inner">
+            <img src="rahul.jpg.jpeg" alt="Rahul Kumar Gupta">
+          </div>
+        </div>
+        <div class="photo-badge">&#9679; OPEN TO WORK</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="section-header reveal">
+    <span class="section-num">01</span>
+    <h2 class="section-title">About <span>Me</span></h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>I'm a motivated B.Tech Computer Science Engineering student with a strong foundation in Python, Java, Data Structures, DBMS, and cloud computing.</p>
+      <p>Currently pursuing my degree at Galgotias University (Expected 2027), I actively seek internship and entry-level opportunities to grow as a software professional.</p>
+      <p>Beyond code, I'm a cricket player, a songwriter, and an active participant in college cultural and technical activities.</p>
+    </div>
+    <div class="about-info-cards reveal">
+      <div class="info-card"><span class="info-icon">📍</span><div class="info-detail"><span class="info-label">Location</span><span class="info-value">Greater Noida, Uttar Pradesh</span></div></div>
+      <div class="info-card"><span class="info-icon">📧</span><div class="info-detail"><span class="info-label">Email</span><span class="info-value">raaahulsengupta143@gmail.com</span></div></div>
+      <div class="info-card"><span class="info-icon">📱</span><div class="info-detail"><span class="info-label">Phone</span><span class="info-value">+91 7061503664</span></div></div>
+      <div class="info-card"><span class="info-icon">🌐</span><div class="info-detail"><span class="info-label">Languages</span><span class="info-value">English, Hindi</span></div></div>
+      <div class="info-card"><span class="info-icon">🎓</span><div class="info-detail"><span class="info-label">University</span><span class="info-value">Galgotias University (2027)</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="skills-container">
+    <div class="section-header reveal">
+      <span class="section-num">02</span>
+      <h2 class="section-title">My <span>Skills</span></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card reveal" style="--grad: linear-gradient(90deg, #00f0ff, #7c3aed)">
+        <div class="skill-card-title">Technical Skills</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Data Structures</span><span class="skill-tag">Algorithms</span>
+          <span class="skill-tag">DBMS</span><span class="skill-tag">Web Development</span><span class="skill-tag">OOP</span>
+        </div>
+      </div>
+      <div class="skill-card reveal" style="--grad: linear-gradient(90deg, #7c3aed, #f59e0b)">
+        <div class="skill-card-title">Languages &amp; Frameworks</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span><span class="skill-tag">Java</span>
+          <span class="skill-tag">JavaScript</span><span class="skill-tag">Spring Boot</span>
+          <span class="skill-tag">React</span><span class="skill-tag">HTML</span><span class="skill-tag">CSS</span>
+        </div>
+      </div>
+      <div class="skill-card reveal" style="--grad: linear-gradient(90deg, #f59e0b, #00f0ff)">
+        <div class="skill-card-title">Databases &amp; Cloud</div>
+        <div class="skill-tags">
+          <span class="skill-tag">MySQL</span><span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">AWS EC2</span><span class="skill-tag">AWS S3</span>
+          <span class="skill-tag">DigitalOcean</span><span class="skill-tag">RESTful APIs</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="section-header reveal">
+    <span class="section-num">03</span>
+    <h2 class="section-title">Featured <span>Projects</span></h2>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-num">01</div>
+      <div class="project-name">Online Restaurant Management System</div>
+      <div class="project-desc">Full-stack web app for food ordering, menu management, and user authentication with role-based access control deployed on AWS/DigitalOcean.</div>
+      <div class="project-tech"><span class="tech-chip">Full-Stack</span><span class="tech-chip">AWS</span><span class="tech-chip">DigitalOcean</span></div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">02</div>
+      <div class="project-name">Online Bank Management System</div>
+      <div class="project-desc">Banking system with Spring Boot and React for secure transactions. Integrated RESTful APIs, authentication, and MySQL/PostgreSQL database.</div>
+      <div class="project-tech"><span class="tech-chip">Spring Boot</span><span class="tech-chip">React</span><span class="tech-chip">MySQL</span></div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">03</div>
+      <div class="project-name">Cafe Management System (AWS Cloud)</div>
+      <div class="project-desc">Cloud-based cafe system for billing, inventory, and order processing. Deployed on AWS EC2 for hosting and S3 for storage.</div>
+      <div class="project-tech"><span class="tech-chip">AWS EC2</span><span class="tech-chip">AWS S3</span><span class="tech-chip">Cloud</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <div class="certs-container">
+    <div class="section-header reveal">
+      <span class="section-num">04</span>
+      <h2 class="section-title">Certifi<span>cations</span></h2>
+    </div>
+    <div class="certs-grid">
+      <div class="cert-card reveal"><span class="cert-icon">🐍</span><div class="cert-name">Python Programming</div><div class="cert-issuer">GUVI</div></div>
+      <div class="cert-card reveal"><span class="cert-icon">☕</span><div class="cert-name">Java Programming</div><div class="cert-issuer">GUVI</div></div>
+      <div class="cert-card reveal"><span class="cert-icon">🗄️</span><div class="cert-name">MySQL Database</div><div class="cert-issuer">Oracle</div></div>
+      <div class="cert-card reveal"><span class="cert-icon">☁️</span><div class="cert-name">Cloud Computing</div><div class="cert-issuer">AWS</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="section-header reveal">
+    <span class="section-num">05</span>
+    <h2 class="section-title">Edu<span>cation</span></h2>
+  </div>
+  <div class="timeline reveal">
+    <div class="timeline-item">
+      <div class="timeline-year">2023 — 2027 (Expected)</div>
+      <div class="timeline-title">Bachelor of Technology — Computer Science Engineering</div>
+      <div class="timeline-sub">Galgotias University, Greater Noida</div>
+      <span class="timeline-badge">B.Tech CSE</span>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-year">2023</div>
+      <div class="timeline-title">Intermediate (PCM)</div>
+      <div class="timeline-sub">P.B.S College, Banka</div>
+      <span class="timeline-badge">75%</span>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact-container">
+    <div class="contact-grid">
+      <div class="contact-left reveal">
+        <div class="hero-tag" style="margin-bottom:1rem">Let's Connect</div>
+        <h2>Let's Build<br><span style="color:var(--accent)">Something</span><br>Amazing.</h2>
+        <p style="margin-top:1.5rem">Open to internship opportunities, collaborations, and entry-level roles!</p>
+      </div>
+      <div class="contact-links reveal">
+        <a href="mailto:raaahulsengupta143@gmail.com" class="contact-link">
+          <span class="contact-link-icon">📧</span>
+          <div class="contact-link-info"><div class="contact-link-type">Email</div><div class="contact-link-val">raaahulsengupta143@gmail.com</div></div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+        <a href="tel:+917061503664" class="contact-link">
+          <span class="contact-link-icon">📱</span>
+          <div class="contact-link-info"><div class="contact-link-type">Phone</div><div class="contact-link-val">+91 7061503664</div></div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+        <a href="https://linkedin.com/in/rahul-kumar-gupta-764700294" target="_blank" class="contact-link">
+          <span class="contact-link-icon">💼</span>
+          <div class="contact-link-info"><div class="contact-link-type">LinkedIn</div><div class="contact-link-val">rahul-kumar-gupta-764700294</div></div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+        <a href="https://github.com/rahulkumargupta143" target="_blank" class="contact-link">
+          <span class="contact-link-icon">🐙</span>
+          <div class="contact-link-info"><div class="contact-link-type">GitHub</div><div class="contact-link-val">github.com/rahulkumargupta143</div></div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+        <a href="https://leetcode.com/u/RBArKUZCgU/" target="_blank" class="contact-link">
+          <span class="contact-link-icon">⚡</span>
+          <div class="contact-link-info"><div class="contact-link-type">LeetCode</div><div class="contact-link-val">leetcode.com/u/RBArKUZCgU/</div></div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Rahul Kumar Gupta. Crafted with ❤️</p>
+  <p style="color:var(--accent)">B.Tech CSE @ Galgotias University</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
